@@ -7,7 +7,7 @@ using Xunit.Abstractions;
 
 namespace CompanyManagement.Test
 {
-    [Collection("My Collection Name")]
+    [Collection("My Collection Name123")]
     public class EmployeeTests : IDisposable
     {
         private readonly Employee _testee;
@@ -35,7 +35,7 @@ namespace CompanyManagement.Test
         [InlineData(66, false)]
         public void TheoryTest_WithInlineData(int age, bool expectedResult)
         {
-            var result = age >= 18 && age <= 65;
+            var result = age >= 18 && age <= 66;
 
             result.Should().Be(expectedResult);
         }
