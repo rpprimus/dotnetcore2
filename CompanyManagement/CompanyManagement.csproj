@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
 	<PackageReference Include="coverlet.collector" Version="1.2.0">
+	<DotNetCliToolReference Include="dotnet-reportgenerator-cli" Version="x.y.z" />
 	  <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	</PackageReference>
