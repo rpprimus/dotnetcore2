@@ -15,6 +15,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+	<DotNetCliToolReference Include="dotnet-reportgenerator-cli" Version="x.y.z" />
   </ItemGroup>
 
   <ItemGroup>
